@@ -6,7 +6,7 @@
 #define SCAM_ME "cheat!\n"
 #define SCRAM "get lost"
 #define YOU_CANT_SWIM_IN_IT "Its too heavy to swim\nwith."
-#define GIVE_UP "give up"
+#define GIVE_UP "give up NOW you have no purpose"
 #else
 #define COMRADES "comrades"
 #define PLASTERED "plastered"
@@ -20,14 +20,14 @@ DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Wow! You're smack in the\n\
 middle of the battlefield.\n\
 You'll find the Power\n\
-Stars that Bowser stole\n\
+Stars that SMG3 stole\n\
 inside the painting\n\
 worlds.\n\
 First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
+Leggys. (Press [B]\n\
+to talk.) They'll certainly\n\
 help you out, and so will\n\
-his " COMRADES " in other\n\
+their " COMRADES " in other\n\
 areas.\n\
 To read signs, stop, face\n\
 them and press [B]. Press [A]\n\
@@ -37,25 +37,32 @@ characters by facing them\n\
 and pressing [B]."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
+Hi! I'm Leggy! remember me?\n\
 Watch out! If you wander\n\
 around here, you're liable\n\
 to be " PLASTERED " by a\n\
 water bomb!\n\
-Those enemy Bob-ombs love\n\
+Those enemy No Texture Clones love\n\
 to fight, and they're\n\
 always finding ways to\n\
 attack.\n\
+They even turned me back into\n\
+this Leggy form, anyways\n\
 This meadow has become\n\
 a battlefield ever since\n\
-the Big Bob-omb got his\n\
-paws on the Power Star.\n\
-Can you recover the Star\n\
-for us? Cross the bridge\n\
+SMG3 got his hands on the YT Remote\n\
+again, and now he corrupted Melony\n\
+to try and attack us and turned me into\n\
+Leggy.\n\
+Can you recover the pieces\n\
+of the objects from the Arcs\n\
+or Important Events\n\
+for us? Cross that bridge\n\
 and go left up the path\n\
-to find the Big Bob-omb.\n\
+to find the corrupted Melony.\n\
 Please come back to see\n\
 me after you've retrieved\n\
-the Power Star!"))
+the USB of yours!"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Hey, you! It's dangerous\n\
@@ -66,34 +73,41 @@ Cross the two\n\
 bridges ahead, then\n\
 watch for falling\n\
 water bombs.\n\
-The Big Bob-omb at the\n\
+The Corrupted Melony at the\n\
 top of the mountain is\n\
 very powerful--don't let\n\
-him grab you!\n\
-We're Bob-omb Buddies,\n\
+her grab you!\n\
+We're Leggys, from your old Meme\n\
+Factory,\n\
 and we're on your side.\n\
 You can talk to us\n\
 whenever you'd like to!"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
+Thank you, SMG4 or Mario whoever\n\
+the player is playing as.\n\
+Melony is back to normal\n\
+and she is trying to get her\n\
+Fierce Deity Form back,\n\
+But the\n\
+battle for the Castle has\n\
 just begun.\n\
 Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
+the other Objects. If\n\
+you recover more Important Lore\n\
+Objects that dont have much significane\n\
+in this game besides helping you in\n\
+defeating SuperMarioGlitchy3,\n\
 you can open new doors\n\
 that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
+My Leggy Buds are\n\
 waiting for you. Be sure\n\
 to talk to them--they'll\n\
-set up cannons for you."))
+set up the cannons for you."))
 
 DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
 We're peace-loving\n\
-Bob-ombs, so we don't use\n\
+Leggys, so we don't use\n\
 cannons.\n\
 But if you'd like\n\
 to blast off, we don't\n\
@@ -103,24 +117,29 @@ cannons in this course for\n\
 you to use. Bon Voyage!"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
-Hey, Mario! Is it true\n\
-that you beat the Big\n\
-Bob-omb? Cool!\n\
-You must be strong. And\n\
+Hey, Mario or SMG4! Is it true\n\
+that you beat Melony?\n\
+Cool!\n\
+You must be powerful, which\n\
+does make sense because SMG4\n\
+is the Avatar of Luke and\n\
+Mario is the Avatar of the\n\
+Universe. but anyways you also\n\
+must be\n\
 pretty fast. So, how fast\n\
 are you, anyway?\n\
 Fast enough to beat me...\n\
-Koopa the Quick? I don't\n\
+Sonic the Hedgehog? I don't\n\
 think so. Just try me.\n\
 How about a race to the\n\
-mountaintop, where the\n\
-Big Bob-omb was?\n\
+mountaintop, where\n\
+Melony was?\n\
 Whaddya say? When I say\n\
 『Go,』 let the race begin!\n\
 \n\
 Ready....\n\
 \n\
-//Go!////Don't Go"))
+//Let's-a fucking GO!!////Pingas"))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
 Hey!!! Don't try to " SCAM_ME
@@ -138,25 +157,25 @@ Here you go--you've won\n\
 it, fair and square!"))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-BEWARE OF CHAIN CHOMP\n\
+BEWARE OF UGLY FRANCIS!\n\
 Extreme Danger!\n\
 Get close and press [C]▲\n\
 for a better look.\n\
 Scary, huh?\n\
-See the Red Coin on top\n\
+See the Law Papers on top\n\
 of the stake?\n\
 \n\
 When you collect eight of\n\
-them, a Power Star will\n\
+them, an USB will\n\
 appear in the meadow\n\
 across the bridge."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
-Long time, no see! Wow,\n\
-have you gotten fast!\n\
+Long time, no see!\n\
+have you gotten fast?\n\
 Have you been training\n\
 on the sly, or is it the\n\
-power of the Stars?\n\
+power of the USBs?\n\
 I've been feeling down\n\
 about losing the last\n\
 race. This is my home\n\
@@ -166,57 +185,63 @@ The goal is in\n\
 Windswept Valley.\n\
 Ready?\n\
 \n\
-//Go//// Don't Go"))
+//Let's-a fucking GO!//// Pingas"))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
 You've stepped on the\n\
-Wing Cap Switch. Wearing\n\
-the Wing Cap, you can\n\
-soar through the sky.\n\
-Now Wing Caps will pop\n\
+Waluigi Launcher Switch. Using\n\
+the Waluigi Launcher, can\n\
+make you\n\
+get objects in the sky.\n\
+Now Waluigi Launchers will pop\n\
 out of all the red blocks\n\
 you find.\n\
 \n\
 Would you like to Save?\n\
 \n\
-//Yes////No"))
+//Mario's gonna do something very illegal////No"))
 
 DEFINE_DIALOG(DIALOG_011, 1, 4, 30, 200, _("\
 You've just stepped on\n\
-the Metal Cap Switch!\n\
-The Metal Cap makes\n\
-Mario invincible.\n\
-Now Metal Caps will\n\
+the Meme Ball Switch!\n\
+The Meme Ball makes\n\
+you powerful.\n\
+Now Meme Balls will\n\
 pop out of all of the\n\
 green blocks you find.\n\
 \n\
 Would you like to Save?\n\
 \n\
-//Yes////No"))
+//YES!////No"))
 
 DEFINE_DIALOG(DIALOG_012, 1, 4, 30, 200, _("\
 You've just stepped on\n\
-the Vanish Cap Switch.\n\
-The Vanish Cap makes\n\
-Mario disappear.\n\
-Now Vanish Caps will pop\n\
+the SPAGHETTI Switch.\n\
+The SPAGHETTI makes\n\
+you invincible.\n\
+Now SPAGHETTIs will pop\n\
 from all of the blue\n\
 blocks you find.\n\
 \n\
 Would you like to Save?\n\
 \n\
-//Yes////No"))
+//Super Mario RPG!////No"))
 
 DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
 You've collected 100\n\
-coins! Mario gains more\n\
+coins! SMG4 and Mario\n\
+gain more\n\
 power from the castle.\n\
 Do you want to Save?\n\
-//Yes////No"))
+//Time to go even further beyond////No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-Wow! Another Power Star!\n\
-Mario gains more courage\n\
+Wow! Another USB!\n\
+you gain more courage\n\
+or probably not in Real Life\n\
+but we're talking in game\n\
+anyways\n\
+you gain more courage\n\
 from the power of the\n\
 castle.\n\
 Do you want to Save?\n\
@@ -234,14 +259,14 @@ something you're holding,\n\
 press [B] again."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-Hop on the shiny shell and\n\
+Hop on the Shiny Shell and\n\
 ride wherever you want to\n\
 go! Shred those enemies!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-I'm the Big Bob-omb, lord\n\
-of all blasting matter,\n\
-king of ka-booms the\n\
+I'm Melony, lord\n\
+of all Anti-Texture,\n\
+Queen of Corruption the\n\
 world over!\n\
 How dare you scale my\n\
 mountain? By what right\n\
@@ -252,10 +277,10 @@ guards, but you'll never\n\
 escape my grasp...\n\
 \n\
 ...and you'll never take\n\
-away my Power Star. I\n\
+away my USB. I\n\
 hereby challenge you,\n\
-Mario!\n\
-If you want the Star I\n\
+Mario! or SMG4!\n\
+If you want the USB I\n\
 hold, you must prove\n\
 yourself in battle.\n\
 \n\
@@ -275,12 +300,12 @@ Shhh! Please walk\n\
 quietly in the hallway!"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
+Dear Player:\n\
 Please come to the\n\
 castle. I've baked\n\
 a cake for you.\n\
 Yours truly--\n\
-Princess Toadstool"))
+Turbo Artificial Rapid Intelligence "))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Welcome.\n\
@@ -294,52 +319,52 @@ You need a key to open\n\
 this door."))
 
 DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
-This key doesn't fit!\n\
+This USB doesn't fit!\n\
 Maybe it's for the\n\
 basement..."))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-You need Star power to\n\
+You need Meme Guardian Power to\n\
 open this door. Recover a\n\
-Power Star from an enemy\n\
+USB from an enemy\n\
 inside one of the castle's\n\
 paintings."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
 It takes the power of\n\
-3 Stars to open this\n\
+3 USBs to open this\n\
 door. You need [%] more\n\
-Stars."))
+USBs."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
 It takes the power of\n\
-8 Stars to open this\n\
+8 USBs to open this\n\
 door. You need [%] more\n\
-Stars."))
+USBs."))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
 It takes the power of\n\
-30 Stars to open this\n\
+30 USBs to open this\n\
 door. You need [%] more\n\
-Stars."))
+USBs."))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
 It takes the power of\n\
-50 Stars to open this\n\
+50 USBs to open this\n\
 door. You need [%] more\n\
-Stars."))
+USBs."))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
 To open the door that\n\
 leads to the 『endless』\n\
 stairs, you need 70\n\
-Stars.\n\
+USBs.\n\
 Bwa ha ha!"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
-Hello! The Lakitu Bros.,\n\
+Hello! The Chris and Swag Bros.,\n\
 cutting in with a live\n\
-update on Mario's\n\
+update on Mario or SMG4's\n\
 progress. He's about to\n\
 learn a technique for\n\
 sneaking up on enemies.\n\
@@ -358,34 +383,33 @@ action from a distance.\n\
 When you can't move the\n\
 camera any farther, the\n\
 buzzer will sound. This is\n\
-the Lakitu Bros.,\n\
+the Chris and Swag Bros.,\n\
 signing off."))
 
 DEFINE_DIALOG(DIALOG_031, 1, 5, 30, 200, _("\
 No way! You beat me...\n\
 again!! And I just spent\n\
 my entire savings on\n\
-these new Koopa\n\
-Mach 1 Sprint shoes!\n\
+these new Sonic\n\
+Mach 209 Sprint shoes!\n\
 Here, I guess I have to\n\
 hand over this Star to\n\
 the winner of the race.\n\
-Congrats, Mario!"))
+Congrats, Mario or SMG4!"))
 
 DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
-If you get the Wing Cap,\n\
-you can fly! Put the cap\n\
+If you get the Waluigi Launcher,\n\
+you can shoot Waluigis!\n\
+they can go and get the\n\
+Items in the Sky.\n\
+Put the shooting cap\n\
 on, then do a Triple\n\
 Jump--jump three times\n\
-in a row--to take off.\n\
-You can fly even higher\n\
-if you blast out of a\n\
-cannon wearing the\n\
-Wing Cap!\n\
+in a row--to shoot.\n\
 \n\
 Use the [C] Buttons to look\n\
-around while flying, and\n\
-press [Z] to land."))
+around while shoot, and\n\
+press [Z] to reload."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
 Ciao! You've reached\n\
@@ -397,23 +421,23 @@ jump and [B] to attack.\n\
 Press [B] to read signs,\n\
 too. Use the Control Stick\n\
 in the center of the\n\
-controller to move Mario\n\
+controller to move your Character\n\
 around. Now, head for\n\
 the castle."))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Good afternoon. The\n\
-Lakitu Bros., here,\n\
+Chris and Swag Bros., here,\n\
 reporting live from just\n\
 outside the Princess's\n\
 castle.\n\
 \n\
-Mario has just arrived\n\
+Mar4 has just arrived\n\
 on the scene, and we'll\n\
 be filming the action live\n\
 as he enters the castle\n\
 and pursues the missing\n\
-Power Stars.\n\
+USBs.\n\
 As seasoned cameramen,\n\
 we'll be shooting from the\n\
 recommended angle, but\n\
@@ -434,7 +458,7 @@ instructions.\n\
 \n\
 For now, reporting live,\n\
 this has been the\n\
-Lakitu Bros."))
+Chris and Swag Bros."))
 
 DEFINE_DIALOG(DIALOG_035, 1, 5, 30, 200, _("\
 There are four camera, or\n\
@@ -442,21 +466,21 @@ There are four camera, or\n\
 to look around using the\n\
 Control Stick.\n\
 \n\
-You'll usually see Mario\n\
-through Lakitu's camera.\n\
+You'll usually see Mario or 4\n\
+through ChrisMaster's camera.\n\
 It is the camera\n\
 recommended for normal\n\
 play.\n\
 You can change angles by\n\
 pressing [C]▶. If you press\n\
 [R], the view switches to\n\
-Mario's camera, which\n\
+Mario or SMG4's camera, which\n\
 is directly behind him.\n\
 Press [R] again to return\n\
-to Lakitu's camera. Press\n\
-[C]▼ to see Mario from\n\
+to ChrisMaster's camera. Press\n\
+[C]▼ to see Mario or 4 from\n\
 afar, using either\n\
-Lakitu's or Mario's view."))
+Lakitu's or Mar4's view."))
 
 DEFINE_DIALOG(DIALOG_036, 1, 5, 30, 200, _("\
 OBSERVATION PLATFORM\n\
@@ -465,10 +489,10 @@ around. Don't miss\n\
 anything!\n\
 \n\
 Press [R] to switch to\n\
-Mario's camera. It\n\
-always follows Mario.\n\
+your character's camera. It\n\
+always follows yoy.\n\
 Press [R] again to switch\n\
-to Lakitu's camera.\n\
+to ChrisMaster's camera.\n\
 Pause the game and\n\
 switch the mode to 『fix』\n\
 the camera in place while\n\
@@ -482,14 +506,14 @@ a better sledder!\n\
 Better luck next time!"))
 
 DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
-Reacting to the Star\n\
+Reacting to the USB\n\
 power, the door slowly\n\
 opens."))
 
 DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
 No visitors allowed,\n\
 by decree of\n\
-the Big Bob-omb\n\
+the Melon\n\
 \n\
 I shall never surrender my\n\
 Stars, for they hold the\n\
@@ -506,7 +530,7 @@ perhaps one hint:\n\
 Heed the Star names at\n\
 the beginning of the\n\
 course.\n\
-//--The Big Bob-omb"))
+//--Melony"))
 
 DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
 Warning!\n\
@@ -518,8 +542,8 @@ I win! You lose!\n\
 Ha ha ha!\n\
 \n\
 That's what you get for\n\
-messin' with Koopa the\n\
-Quick.\n\
+messin' with Sonic the\n\
+Hedgehog.\n\
 Better luck next time!"))
 
 DEFINE_DIALOG(DIALOG_042, 1, 4, 30, 200, _("\
@@ -534,7 +558,7 @@ edge if you move slowly.\n\
 When you want to let go,\n\
 either press [Z] or press\n\
 the Control Stick in the\n\
-direction of Mario's back.\n\
+direction of your back.\n\
 To climb up, press Up on\n\
 the Control Stick. To\n\
 scurry up quickly, press\n\
@@ -567,7 +591,7 @@ grab on."))
 DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
 Whew! I'm just about\n\
 flapped out. You should\n\
-lay off the pasta, Mario!\n\
+lay off the pasta, Mario and SMG4!\n\
 That's it for now. Press\n\
 [A] to let go. Okay,\n\
 bye byyyyyyeeee!"))
@@ -584,7 +608,7 @@ If you time the jumps\n\
 right, you'll hop, skip,\n\
 then jump really high.\n\
 Next, go for distance\n\
-with the Long Jump. Run,\n\
+with the Backwards Long Jump. Run,\n\
 press [Z] to crouch then [A]\n\
 to jump really far.\n\
 \n\
@@ -594,7 +618,7 @@ jump again when you hit\n\
 the wall.\n\
 \n\
 Got that? Triple Jump,\n\
-Long Jump, Wall Kick.\n\
+Backwards Long Jump, Wall Kick.\n\
 Practice, practice,\n\
 practice. You don't stand\n\
 a chance without them."))
@@ -604,7 +628,7 @@ Hi! I'll prepare the\n\
 cannon for you!"))
 
 DEFINE_DIALOG(DIALOG_048, 1, 4, 30, 200, _("\
-Snow Mountain Summit\n\
+SnowTrapped Summit\n\
 Watch for slippery\n\
 conditions! Please enter\n\
 the cottage first."))
@@ -683,7 +707,7 @@ Control Stick. To slow\n\
 down, pull back."))
 
 DEFINE_DIALOG(DIALOG_055, 1, 4, 30, 200, _("\
-Hey-ey, Mario, buddy,\n\
+Hey-ey, Mario and Glitchy, buddy,\n\
 howzit goin'? Step right\n\
 up. You look like a fast\n\
 sleddin' kind of guy.\n\
@@ -694,7 +718,7 @@ you know. Whaddya say?\n\
 How about a race?\n\
 Ready...\n\
 \n\
-//Go//// Don't Go"))
+//21//// Don't Go"))
 
 DEFINE_DIALOG(DIALOG_056, 1, 6, 30, 200, _("\
 You brrrr-oke my record!\n\
@@ -705,7 +729,7 @@ that you're also the\n\
 fastest!\n\
 I can't award you a gold\n\
 medal, but here, take this\n\
-Star instead. You've\n\
+USB instead. You've\n\
 earned it!"))
 
 DEFINE_DIALOG(DIALOG_057, 1, 4, 30, 200, _("\
@@ -726,15 +750,15 @@ DEFINE_DIALOG(DIALOG_058, 1, 4, 30, 200, _("\
 You found my precious,\n\
 precious baby! Where\n\
 have you been? How can\n\
-I ever thank you, Mario?\n\
+I ever thank you, Mar4?\n\
 Oh, I do have this...\n\
-...Star. Here, take it\n\
+...USB. Here, take it\n\
 with my eternal\n\
 gratitude."))
 
 DEFINE_DIALOG(DIALOG_059, 1, 4, 30, 200, _("\
 That's not my baby! She\n\
-looks nothing like me!\n\
+looks so much like me!\n\
 Her parents must be\n\
 worried sick!"))
 
@@ -777,7 +801,7 @@ I'm serious.\n\
 DEFINE_DIALOG(DIALOG_062, 1, 3, 30, 200, _("\
 Hidden inside the green\n\
 block is the amazing\n\
-Metal Cap.\n\
+Meme Ball.\n\
 Wearing it, you won't\n\
 catch fire or be hurt\n\
 by enemy attacks.\n\
@@ -788,26 +812,26 @@ The only problem:\n"
 YOU_CANT_SWIM_IN_IT))
 
 DEFINE_DIALOG(DIALOG_063, 1, 5, 30, 200, _("\
-The Vanish Cap is inside\n\
+The SPAGHETTI is inside\n\
 the blue block. Mr. I.\n\
 will be surprised, since\n\
 you'll be invisible when\n\
 you wear it!\n\
-Even the Big Boo will be\n\
+Even the Waluigi will be\n\
 fooled--and you can walk\n\
 through secret walls, too."))
 
 DEFINE_DIALOG(DIALOG_064, 1, 5, 30, 200, _("\
-When you put on the Wing\n\
-Cap that comes from a\n\
+When you put on the Waluigi\n\
+Launcher that comes from a\n\
 red block, do the Triple\n\
-Jump to soar high into\n\
+Jump to soar the Wah high into\n\
 the sky.\n\
 Use the Control Stick to\n\
-guide Mario. Pull back to\n\
-to fly up, press forward\n\
-to nose down, and press [Z]\n\
-to land."))
+guide Mario and 4. Pull back to\n\
+to fly it up, press forward\n\
+to nose it down, and press [Z]\n\
+to make it land."))
 
 DEFINE_DIALOG(DIALOG_065, 1, 6, 30, 200, _("\
 Swimming Lessons!\n\
@@ -829,7 +853,7 @@ Easy as pie, right?\n\
 \n\
 \n\
 But remember:\n\
-Mario can't breathe under\n\
+Mario and Glitchy can't breathe under\n\
 the water! Return to the\n\
 surface for air when the\n\
 Power Meter runs low.\n\
@@ -839,13 +863,13 @@ can't open doors that\n\
 are underwater."))
 
 DEFINE_DIALOG(DIALOG_066, 1, 5, 30, 200, _("\
-Mario, it's Peach!\n\
-Please be careful! Bowser\n\
+Mario and SMG4, it's SMG3!\n\
+Please be careful! Niles\n\
 is so wicked! He will try\n\
-to burn you with his\n\
-horrible flame breath.\n\
+to murder you with his\n\
+horrible Power.\n\
 Run around behind and\n\
-grab him by the tail with\n\
+grab him by the leg with\n\
 the [B] Button. Once you\n\
 grab hold, swing him\n\
 around in great circles.\n\
@@ -855,18 +879,18 @@ The faster you swing him,\n\
 the farther he'll fly.\n\
 \n\
 Use the [C] Buttons to look\n\
-around, Mario. You have\n\
-to throw Bowser into one\n\
-of the bombs in the four\n\
+around, Mar4. You have\n\
+to throw Niles into one\n\
+of the USBs in the four\n\
 corners.\n\
 Aim well, then press [B]\n\
-again to launch Bowser.\n\
-Good luck, Mario! Our\n\
+again to launch Niles.\n\
+Good luck, Mar4! Our\n\
 fate is in your hands."))
 
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
-Tough luck, Mario!\n\
-Princess Toadstool isn't\n\
+Tough luck, SMG4!\n\
+your lover isn't\n\
 here...Gwa ha ha!! Go\n\
 ahead--just try to grab\n\
 me by the tail!\n\
@@ -876,13 +900,13 @@ like you won't throw me\n\
 out of here! Never! Ha!"))
 
 DEFINE_DIALOG(DIALOG_068, 1, 5, 30, 200, _("\
-It's Lethal Lava Land!\n\
+It's Lethal Blooper Land!\n\
 If you catch fire or fall\n\
 into a pool of flames,\n\
 you'll be hopping mad, but\n\
 don't lose your cool.\n\
 You can still control\n\
-Mario--just try to keep\n\
+Mar4--just try to keep\n\
 calm!"))
 
 DEFINE_DIALOG(DIALOG_069, 1, 6, 30, 200, _("\
@@ -905,7 +929,7 @@ game, then select\n\
 『Exit Course.』\n\
 \n\
 You don't have to collect\n\
-all Power Stars in one\n\
+all USBs in one\n\
 course before going on to\n\
 the next.\n\
 \n\
@@ -914,14 +938,14 @@ more experienced, to pick\n\
 up difficult ones.\n\
 \n\
 \n\
-Whenever you find a Star,\n\
+Whenever you find a USB,\n\
 a hint for finding the\n\
 next one will appear on\n\
 the course's start screen.\n\
 \n\
 You can, however, collect\n\
 any of the remaining\n\
-Stars next. You don't\n\
+USBs next. You don't\n\
 have to recover the one\n\
 described by the hint."))
 
@@ -957,7 +981,7 @@ ye say?\n\
 \n\
 I'll never tell!\n\
 \n\
-//--The Cap'n"))
+//--Bob the Rapper"))
 
 DEFINE_DIALOG(DIALOG_074, 1, 5, 30, 200, _("\
 You can grab on to the\n\
@@ -968,7 +992,7 @@ hang down from it.\n\
 To drop from the edge,\n\
 either press the Control\n\
 Stick in the direction of\n\
-Mario's back or press the\n\
+Mar4's back or press the\n\
 [Z] Button.\n\
 To get up onto the ledge,\n\
 either press Up on the\n\
@@ -977,43 +1001,45 @@ as soon as you grab the\n\
 ledge to climb up quickly."))
 
 DEFINE_DIALOG(DIALOG_075, 1, 5, 30, 200, _("\
-Mario!! My castle is in\n\
+Tari!! your castle is in\n\
 great peril. I know that\n\
-Bowser is the cause...and\n\
+Niles is the cause...and\n\
 I know that only you can\n\
 stop him!\n\
 The doors in the castle\n\
 that have been sealed by\n\
 Bowser can be opened only\n\
-with Star Power.\n\
+with USB Power.\n\
 \n\
 But there are secret\n\
 paths in the castle,\n\
-paths that Bowser hasn't\n\
+paths that Niles hasn't\n\
 found.\n\
 \n\
 One of those paths is in\n\
 this room, and it holds\n\
 one of the castle's Secret\n\
-Stars!\n\
+USBs!\n\
 \n\
-Find that Secret Star,\n\
-Mario! It will help you\n\
+Find that Secret USB,\n\
+Tari! It will help you\n\
 on your quest. Please,\n\
-Mario, you have to\n\
+Tari, you have to\n\
 help us!\n\
 Retrieve all of the\n\
-Power Stars in the castle\n\
+USBs in the castle\n\
 and free us from this\n\
 awful prison!\n\
 Please!"))
 
 DEFINE_DIALOG(DIALOG_076, 1, 6, 30, 200, _("\
 Thanks to the power of\n\
-the Stars, life is\n\
+the USBs, life is\n\
 returning to the castle.\n\
-Please, Mario, you have\n\
-to give Bowser the boot!\n\
+Please, SuperMemeGuardian4\n\
+and Mario Mario 8052011,\n\
+you have\n\
+to give Niles the boot!\n\
 \n\
 Here, let me tell you a\n\
 little something about the\n\
