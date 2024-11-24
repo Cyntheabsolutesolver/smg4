@@ -1,13 +1,13 @@
 // Mario
 
-// 0x04000000 # solid color blue - butt, left thigh, right thigh - all poly types
-static const Lights1 mario_blue_lights_group = gdSPDefLights1(
+// 0x04000000 # solid color white - butt, left thigh, right thigh - all poly types
+static const Lights1 mario_white_lights_group = gdSPDefLights1(
     0x00, 0x00, 0x7f,
     0x00, 0x00, 0xff, 0x28, 0x28, 0x28
 );
 
-// 0x04000018 # solid color red - left & right arm, torso (tshirt part), caps - all poly types
-static const Lights1 mario_red_lights_group = gdSPDefLights1(
+// 0x04000018 # solid color blue - left & right arm, torso (tshirt part), caps - all poly types
+static const Lights1 mario_blue_lights_group = gdSPDefLights1(
     0x7f, 0x00, 0x00,
     0xff, 0x00, 0x00, 0x28, 0x28, 0x28
 );
@@ -30,8 +30,8 @@ static const Lights1 mario_beige_lights_group = gdSPDefLights1(
     0xfe, 0xc1, 0x79, 0x28, 0x28, 0x28
 );
 
-// 0x04000078  # solid color brown 2 - hair - all poly types
-static const Lights1 mario_brown2_lights_group = gdSPDefLights1(
+// 0x04000078  # solid color black 2 - hair - all poly types
+static const Lights1 mario_black2_lights_group = gdSPDefLights1(
     0x39, 0x03, 0x00,
     0x73, 0x06, 0x00, 0x28, 0x28, 0x28
 );
@@ -499,8 +499,8 @@ const Gfx mario_left_arm_shared_dl[] = {
 
 // 0x0400D1D8 - 0x0400D1F8
 const Gfx mario_left_arm[] = {
-    gsSPLight(&mario_red_lights_group.l, 1),
-    gsSPLight(&mario_red_lights_group.a, 2),
+    gsSPLight(&mario_blue_lights_group.l, 1),
+    gsSPLight(&mario_blue_lights_group.a, 2),
     gsSPDisplayList(mario_left_arm_shared_dl),
     gsSPEndDisplayList(),
 };
@@ -760,8 +760,8 @@ const Gfx mario_right_arm_shared_dl[] = {
 
 // 0x0400DDE8 - 0x0400DE08
 const Gfx mario_right_arm[] = {
-    gsSPLight(&mario_red_lights_group.l, 1),
-    gsSPLight(&mario_red_lights_group.a, 2),
+    gsSPLight(&mario_blue_lights_group.l, 1),
+    gsSPLight(&mario_blue_lights_group.a, 2),
     gsSPDisplayList(mario_right_arm_shared_dl),
     gsSPEndDisplayList(),
 };
@@ -979,8 +979,8 @@ const Gfx mario_left_thigh_dl[] = {
 const Gfx mario_left_thigh[] = {
     gsDPPipeSync(),
     gsDPSetCombineMode(G_CC_SHADEFADEA, G_CC_SHADEFADEA),
-    gsSPLight(&mario_blue_lights_group.l, 1),
-    gsSPLight(&mario_blue_lights_group.a, 2),
+    gsSPLight(&mario_white_lights_group.l, 1),
+    gsSPLight(&mario_white_lights_group.a, 2),
     gsSPDisplayList(mario_left_thigh_dl),
     gsSPEndDisplayList(),
 };
@@ -1160,8 +1160,8 @@ const Gfx mario_right_thigh_shared_dl[] = {
 
 // 0x0400EFB8 - 0x0400EFD8
 const Gfx mario_right_thigh[] = {
-    gsSPLight(&mario_blue_lights_group.l, 1),
-    gsSPLight(&mario_blue_lights_group.a, 2),
+    gsSPLight(&mario_white_lights_group.l, 1),
+    gsSPLight(&mario_white_lights_group.a, 2),
     gsSPDisplayList(mario_right_thigh_shared_dl),
     gsSPEndDisplayList(),
 };
@@ -1589,8 +1589,8 @@ const Gfx mario_tshirt_shared_dl[] = {
 // 0x04010348 - 0x04010370
 const Gfx mario_torso_dl[] = {
     gsSPDisplayList(mario_pants_overalls_shared_dl),
-    gsSPLight(&mario_red_lights_group.l, 1),
-    gsSPLight(&mario_red_lights_group.a, 2),
+    gsSPLight(&mario_blue_lights_group.l, 1),
+    gsSPLight(&mario_blue_lights_group.a, 2),
     gsSPDisplayList(mario_tshirt_shared_dl),
     gsSPEndDisplayList(),
 };
@@ -2080,11 +2080,11 @@ const Gfx mario_face_back_hair_cap_on_dl[] = {
 // 0x04011960 - 0x040119A0
 const Gfx mario_face_cap_on_dl[] = {
     gsSPDisplayList(mario_face_part_cap_on_dl),
-    gsSPLight(&mario_red_lights_group.l, 1),
-    gsSPLight(&mario_red_lights_group.a, 2),
+    gsSPLight(&mario_blue_lights_group.l, 1),
+    gsSPLight(&mario_blue_lights_group.a, 2),
     gsSPDisplayList(mario_face_cap_dl),
-    gsSPLight(&mario_brown2_lights_group.l, 1),
-    gsSPLight(&mario_brown2_lights_group.a, 2),
+    gsSPLight(&mario_black_lights_group.l, 1),
+    gsSPLight(&mario_black_lights_group.a, 2),
     gsSPDisplayList(mario_face_back_hair_cap_on_dl),
     gsSPEndDisplayList(),
 };
