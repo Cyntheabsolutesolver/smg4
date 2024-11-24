@@ -1,5 +1,5 @@
 /*
- * Super Mario 64 ROM header
+ * Super Mario Glitchy 4 ROM header
  * Only the first 0x18 bytes matter to the console.
  */
 
@@ -27,9 +27,9 @@
 .word  0x00000000               /* Unknown */
 .word  0x00000000               /* Unknown */
 #ifdef VERSION_SH
-.ascii "SUPERMARIO64        "   /* Internal ROM name */
+.ascii "SUPERMARIOGLITCHY4        "   /* Internal ROM name */
 #else
-.ascii "SUPER MARIO 64      "   /* Internal ROM name */
+.ascii "SUPER MARIO GLITCHY 4      "   /* Internal ROM name */
 #endif
 .word  0x00000000               /* Unknown */
 .word  0x0000004E               /* Cartridge */
